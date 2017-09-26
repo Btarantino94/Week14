@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  background: black;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+h1{
+   text-align: center;
+}
+form{
+  width:500px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+form div{
+  margin: 10px;
+}
+label{
+  display: inline-block;
+  
+}
+input[type="sumbit"]{
+  display:block;
+}
