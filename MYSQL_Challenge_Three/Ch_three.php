@@ -16,7 +16,7 @@ require "./dbconnect_3.php";
     <body>
 
     <?php
-      if($_POST["name"]) {
+      if(isset ($_POST["name"])) {
         try {
           $sql = $db->Prepare("INSERT INTO `ch_three` (`name`, `description`, `price`, `color`) VALUES (:name, :description, :price, :color)");
           $sql->execute([
